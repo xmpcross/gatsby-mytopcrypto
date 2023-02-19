@@ -8,10 +8,12 @@ module.exports = {
       options: {}
     },
     {
+      // ATTENTION: Match the theme name with the theme you're using
       resolve: '@elegantstack/gatsby-theme-flexiblog-news',
       options: {
-        // Add theme options here. Check documentation for available options.
-        siteUrl: process.env.URL || process.env.VERCEL_URL
+        sources: {
+          local: true
+        }
       }
     }
   ],

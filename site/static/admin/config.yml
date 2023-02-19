@@ -10,7 +10,8 @@
 
   backend: {
       name: 'github', # Name of your git hosting service (ie. github, gitlab)
-      repo: 'your-username/your-repo-name', # Path to your GitHub repository
+      repo: 'xmpcross/gatsby-mytopcrypto', # Path to your GitHub repository
+      branch: 'main'
     },
 
   #########################################################################
