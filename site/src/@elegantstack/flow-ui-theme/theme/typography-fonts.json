@@ -1,0 +1,11 @@
+{
+  "fonts": {
+    "google": {
+      "families": ["Lexend:400,500,600,700&display=swap"]
+    }
+  },
+  "theme": {
+    "headerFontFamily": ["Lexend", "sans-serif"],
+    "bodyFontFamily": ["Lexend", "sans-serif"]
+  }
+}

@@ -1,16 +1,30 @@
+require('dotenv').config()
+
 module.exports = {
   flags: {
     DEV_SSR: false
   },
   plugins: [
+    
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {}
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Lexend', 'sans-serif']
+        }
+      }
+    },
     {
       resolve: '@elegantstack/gatsby-theme-flexiblog-news',
       options: {
         // Add theme options here. Check documentation for available options.
-        siteUrl: process.env.URL || process.env.VERCEL_URL
+        siteUrl: process.env.URL || process.env.VERCEL_URL,
         sources: {
-          sanity: true,
-          local: false
+          local: true
         }
       }
     }
