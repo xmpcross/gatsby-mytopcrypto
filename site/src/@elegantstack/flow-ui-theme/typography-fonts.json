@@ -1,7 +1,7 @@
 {
   "fonts": {
     "google": {
-      "families": ["Lexend:300,400,500,600,700,800&display=swap"]
+      "families": ["Lexend:400,600,700,900&display=swap"]
     }
   },
   "theme": {

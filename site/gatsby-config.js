@@ -4,6 +4,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Lexend']
+        }
+      }
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {}
     },
